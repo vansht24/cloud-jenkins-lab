@@ -1,0 +1,21 @@
+downloads/
+runtime/
+*.log
+
+# Jenkins credentials and runtime data
+secrets/
+*.secret
+*.jks
+*.p12
+*.key
+
+# Downloaded binaries and generated files
+*.war
+*.jar
+*.class
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+!.env.example
